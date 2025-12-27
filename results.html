@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <style>
+        body { background:#000; color:#fff; font-family:Arial; text-align:center; }
+        .box { width:500px; margin:120px auto; padding:30px; border:1px solid gold; border-radius:12px; }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>Assessment Complete</h2>
+    <p>PHQ-9 Score: {{ assessment.phq9_total }}</p>
+    <p>Severity: {{ assessment.severity_level }}</p>
+</div>
+
+</body>
+</html>
