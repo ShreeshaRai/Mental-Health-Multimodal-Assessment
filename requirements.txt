@@ -1,0 +1,15 @@
+Flask
+Flask-Login
+Flask-SocketIO
+Flask-Cors
+SQLAlchemy
+eventlet
+opencv-python
+dlib
+fer
+numpy
+pandas
+scikit-learn
+librosa
+SpeechRecognition
+textblob
